@@ -3,3 +3,133 @@
     padding: 0;
     margin: 0;
 }
+
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+    background-color:#ff6900 ;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.sex{
+    display: flex;
+}
+
+.white{
+    color: white;
+}
+
+.font{
+    font-size: 16px;
+
+}
+
+section.sex > h5{
+    margin-right: 0.5rem;
+}
+
+.logo{
+    width: 13%;
+}
+
+.logo > img{
+    width: 70%;
+}
+
+section.nav > i{
+    margin-right: 1rem;
+    
+}
+
+.main-flex{
+    padding: 2rem 6rem 3rem 6rem;
+}
+
+.articles{
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-around;
+}
+
+section.articles > article{
+    width: calc((100% / 3) - 0.5rem);
+    /* background-color: rgb(129, 129, 129); */
+    /* height: 200px; */
+    margin: 0.2rem;
+}
+
+article.article > img{
+    height: 365px;
+    width: 100%;
+    object-fit: cover;
+}
+
+article.article{
+    position: relative;
+}
+.size{
+    font-size: 12px;
+}
+
+.brand{
+    color: rgb(22, 22, 22);
+}
+
+.red{
+    color: red;
+}
+
+.redsquare{
+    width: 2rem;
+  height: 1rem;
+  position: absolute;
+  background-color: red;
+  top: 77%;
+  left: 0;
+  text-align: center;
+  font-size: 9px;
+  padding: 3px;
+
+}
+
+.greensquare{
+    width: 4rem;
+    height: 1rem;
+    position: absolute;
+    background-color: #018001;
+    top: 77%;
+    left: 13.2%;
+    text-align: center;
+    font-size: 9px;
+    padding: 3px;
+}
+
+.greensquare-last{
+    width: 4rem;
+    height: 1rem;
+    position: absolute;
+    background-color: #018001;
+    top: 77%;
+    left: 0;
+    text-align: center;
+    font-size: 9px;
+    padding: 3px;
+}
+
+.whitesquareheart{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    background-color: #ffffff;
+    top: 2%;
+    right: 0;
+    text-align: center;
+    font-size: 22px;
+    padding: 3px;
+}
