@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
 body{
@@ -64,6 +65,17 @@ section.articles > article{
     margin: 0.2rem;
 }
 
+.hover-img{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+article.article:hover > img.hover-img{
+    display: block;
+}
+
 article.article > img{
     height: 365px;
     width: 100%;
@@ -73,8 +85,10 @@ article.article > img{
 article.article{
     position: relative;
 }
+
+
 .size{
-    font-size: 12px;
+    font-size: 9px;
 }
 
 .brand{
