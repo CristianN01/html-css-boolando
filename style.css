@@ -65,7 +65,7 @@ section.articles > article{
     /* height: 200px; */
     margin: 0.2rem;
 }
-
+/* hover */
 .hover-img{
     position: absolute;
     display: none;
@@ -77,6 +77,26 @@ article.article:hover > img.hover-img{
     display: block;
 }
 
+.whitesquareheart:hover{
+    color: red;
+}
+
+.redsquareheart{
+    display: none;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    background-color: #ffffff;
+    top: 2%;
+    right: 0;
+    text-align: center;
+    font-size: 22px;
+    padding: 3px;
+    color: red;
+}
+
+
+/* fine hover */
 article.article > img{
     height: 365px;
     width: 100%;
@@ -102,14 +122,14 @@ article.article{
 
 .redsquare{
     width: 2rem;
-  height: 1rem;
-  position: absolute;
-  background-color: red;
-  top: 77%;
-  left: 0;
-  text-align: center;
-  font-size: 9px;
-  padding: 3px;
+    height: 1rem;
+    position: absolute;
+    background-color: red;
+    top: 77%;
+    left: 0;
+    text-align: center;
+    font-size: 9px;
+    padding: 3px;
 
 }
 
